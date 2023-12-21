@@ -65,8 +65,10 @@ footer {
         
 }
 
-form {
-    display: flexbox;
-    justify-content: space-between;
-    align-items: center;
+.message {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+   
 }
+

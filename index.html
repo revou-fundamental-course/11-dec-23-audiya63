@@ -112,6 +112,7 @@
         </header>
         <hr>
         <h2>Message Us</h2>
+        <nav class="message">
         <form name="message-form" onsubmit="return validateForm()">
         Nama : <input placeholder="Nama" type="text" name="full-name" />
         <br />
@@ -129,15 +130,16 @@
         <br />
 
         <input type="submit" value="Submit" />
-        <div>
+        </form>
+
+        <div class="data">
             <p>Nama : <span id="sender-full-name"></span></p>
             <p>Tanggal Lahir : <span id="sender-birth-date"></span></p>
             <p>Jenis Kelamin : <span id="sender-gender"></span></p>
             <p>Pesan : <span id="sender=messages"></span></p>
         </div>
-        </form>
-        <script src="js/script.js"></script>
-       
+        </nav>
+         
     </body>
     <footer>@SMA Negeri 2 Bojonegoro</footer>
 </html>
